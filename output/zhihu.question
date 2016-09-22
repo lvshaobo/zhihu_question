@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js topic-pages">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="001087ec757689ae">
+<meta http-equiv="X-ZA-Experiment" content="default:None,ab_feature1:cmt_v1,ab_web_comment_display:direct">
+
+<title>话题动态 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/topic">
+<meta id="znonce" name="znonce" content="a6bfda3b5cb1451c886e72b08836814e">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.298480f5.css">
+
+
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.14757a4a.js"></script>
+
+<style type="text/css">
+.zh-general-list { display: none; }
+.topic-title {display: none;}
+</style>
+
+</head>
+
+<body class="zhi js-topic-feed-page topic-feed-page">
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+<div class="top-nav-profile">
+<a href="/people/lvshaoboftd" class="zu-top-nav-userinfo ">
+<span class="name">lvshaoboftd</span>
+<img class="Avatar" src="https://pic1.zhimg.com/da8e974dc_s.jpg" srcset="https://pic1.zhimg.com/da8e974dc_xs.jpg 2x" alt="lvshaoboftd" />
+<span id="zh-top-nav-new-pm" class="zg-noti-number zu-top-nav-pm-count"
+style="visibility:hidden" data-count="0">
+
+</span>
+</a>
+<ul class="top-nav-dropdown" id="top-nav-profile-dropdown">
+<li>
+<a href="/people/lvshaoboftd">
+<i class="zg-icon zg-icon-dd-home"></i>我的主页
+</a>
+</li>
+
+<li>
+<a href="/inbox">
+<i class="zg-icon zg-icon-dd-pm"></i>私信
+<span id="zh-top-nav-pm-count" class="zu-top-nav-pm-count zg-noti-number"
+style="visibility:hidden" data-count="0">
+
+</span>
+</a>
+</li>
+<li>
+<a href="/settings">
+<i class="zg-icon zg-icon-dd-settings"></i>设置
+</a>
+</li>
+<li>
+<a href="/logout">
+<i class="zg-icon zg-icon-dd-logout"></i>退出
+</a>
+</li>
+</ul>
+
+</div>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" placeholder="搜索你感兴趣的内容...">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li current" id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li " id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+<li class="top-nav-noti zu-top-nav-li ">
+<a class="zu-top-nav-link" href="javascript:;" id="zh-top-nav-count-wrap" role="button"><span class="mobi-arrow"></span>消息</a>
+</li>
+
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+<div class="topic-feed-title">
+<i class="zg-icon zg-icon-feedlist"></i>
+<span>已关注的话题动态</span>
+<a target="_blank" href="/people/lvshaoboftd/topics" class="zg-link-gray zg-right" >
+共关注 <span class="follow-topics-count">4</span> 个话题
+</a>
+</div>
+
+<ul class="zm-topic-cat-main js-topic-cat-main clearfix">
+
+<li class="zm-topic-cat-item" data-id="10033" data-href="/topic/19580349"><a href="#计算机科学">计算机科学</a></li>
+
+<li class="zm-topic-cat-item" data-id="1538" data-href="/topic/19554827"><a href="#体育">体育</a></li>
+
+<li class="zm-topic-cat-item" data-id="3084" data-href="/topic/19559450"><a href="#机器学习">机器学习</a></li>
+
+<li class="zm-topic-cat-item" data-id="707" data-href="/topic/19552330"><a href="#程序员">程序员</a></li>
+
+
+</ul>
+<div class="topic-title clearfix js-topic-title">
+
+<a href="/topic/19580349" target="_blank" class="zg-left js-topic-title-avatar">
+<img class="Avatar Avatar--m js-topic-avatar" src="https://pic3.zhimg.com/b85ddd8aa_m.jpg" srcset="https://pic3.zhimg.com/b85ddd8aa_t.jpg 2x" alt="计算机科学" />
+</a>
+<a href="/topic/19580349" target="_blank" class="zg-left topic-title-name js-topic-title-name">
+计算机科学
+</a>
+<div class="feed-switcher js-feed-switcher">
+<a href="javascript:;" class="current" data-feed-type="smart_feed">热门排序</a> | <a href="javascript:;" data-feed-type="timeline_feed">时间排序</a>
+</div>
+
+</div>
+<div class="zm-topic-list-container">
+<div class="zu-top-feed-list" id="zh-topic-feed-list">
+<div class="zh-general-list clearfix" data-init="{&quot;params&quot;: {&quot;offset&quot;: 0, &quot;topic_id&quot;: 10033}, &quot;nodename&quot;: &quot;TopicFeedList&quot;}">
+
+<div class="feed-item feed-item-hook question-item" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="3225.33098073" data-type="Question">
+<link itemprop="url" href="/question/21395276">
+<meta itemprop="answerCount" content="129" />
+<meta itemprop="isTopQuestion" content="false" />
+
+<div class="subtopic">来自子话题：<a data-hovercard="t$t$19615452" target="_blank" href="/topic/19615452">计算机语言</a></div>
+
+<h2 class="question-item-title">
+
+<a target="_blank" class="question_link" href="/question/21395276">可以用 Python 编程语言做哪些神奇好玩的事情？</a>
+</h2>
+
+<div class="question-item-meta">
+<a class="zg-link-gray-normal meta-item" target="_blank" href="/question/21395276">129 个回答</a>
+<span class="zg-bull">&bull;</span>
+<a class="zg-link-gray-normal meta-item" href="/question/21395276/followers">18K 人关注</a>
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item zu-autohide" href="javascript:;" id="sfb-738792">关注问题</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="js-questionUnhelpful meta-item zu-autohide" data-qid="738792">没有帮助</a>
+
+</div>
+
+</div>
+
+<div class="feed-item feed-item-hook  folding" itemprop="question" itemscope itemtype="http://schema.org/Question"  data-score="3225.12443904" data-type="Answer">
+<link itemprop="url" href="/question/50824266/answer/122986375">
+<meta itemprop="answer-id" content="44689592" />
+<meta itemprop="answer-url-token" content="122986375" />
+<meta itemprop="answerCount" content="60" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="feed-content">
+<h2><a class="question_link" href="/question/50824266" target="_blank" data-id="12546396">
+如何看待腾讯科恩实验室成功远程控制特斯拉？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/50824266/answer/122986375">
+<!-- <meta itemprop="answer-id" content="44689592">
+<meta itemprop="answer-url-token" content="122986375"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>2393</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">2393</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$nforest"
+target="_blank" href="/people/nforest"
+>nforest</a></span><span title="科恩实验室 安全研究员" class="bio">
+科恩实验室 安全研究员
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="2393" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">2393</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="12546396" data-action="/answer/content" data-author-name="nforest" data-entry-url="/question/50824266/answer/122986375">
+
+<textarea hidden class="content">本来已经准备去忙新的研究项目了，实在看不下去了来回答下这个问题。&lt;br&gt;&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//v.qq.com/x/page/y0329yuyczc.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;科恩实验室：对特斯拉的无物理接触远程攻击&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;利益相关，科恩实验室安全研究员，视频里的小胖子（旁边还有个大胖子，哈哈）。&lt;br&gt;&lt;br&gt;回复 &lt;a data-hash=&quot;c67d30567c1ebd6c36ca4352d2c716df&quot; href=&quot;//www.zhihu.com/people/c67d30567c1ebd6c36ca4352d2c716df&quot; class=&quot;member_mention&quot; data-editable=&quot;true&quot; data-title=&quot;@高天&quot; data-hovercard=&quot;p$b$c67d30567c1ebd6c36ca4352d2c716df&quot;&gt;@高天&lt;/a&gt; 的疑问：&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;linux基本等价于来呀来呀你来hack我啊，任何基于linux谈的安全都是笑话。&lt;br&gt;因此任何基于linux的OS，谈安全，都是笑话，因为他架构本身决定了，一定会有问题。&lt;/blockquote&gt;&lt;b&gt;知乎这么多计算机领域大神，就没人看不下去了站出来说两句么...&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;实际上Tesla的核心操控系统，科恩并没有hack掉，他们很可能hack掉的是外面那层linux，从而可以控制一些有的没的（即通过entertainment system，或者说17寸的大屏幕可控制的内容）。&lt;/blockquote&gt;&lt;b&gt;我们不仅hack掉了你所谓的“有的没的”，还hack掉了你不清楚的那些更为严重的系统，而且是多个系统。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;我猜测是Tesla的entertainment system部分有一个可以控制急刹车的部件，比如检测到前方快撞了直接刹车之类的。&lt;/blockquote&gt;&lt;b&gt;	并没有急刹车的部件，你的猜测错了。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;但是在安全层面上说，和去年Jeep Cherokee的破解完全不是一个等级，并没有拿到车的full access&lt;/blockquote&gt;&lt;b&gt;	拿到了full access。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;这个hack的触发条件是要使用浏览器，并且要链接到一个旁边的恶意wifi。&lt;/blockquote&gt;&lt;b&gt;	不需要链接到一个旁边的恶意&lt;/b&gt;&lt;b&gt;Wi-Fi&lt;/b&gt;&lt;b&gt;。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;尽管科恩并没有物理层面上改装这个车子，但是他仍然需要车主打开浏览器，并且链接到周围的一个指定wifi。&lt;/blockquote&gt;&lt;b&gt;	不需要车主打开浏览器，不需要链接到一个指定Wi-Fi。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;反观Jeep Cherokee的hack，他是有能力在人远离车子的情况下，不需要任何车主的不安全操作，完整hack掉整台车子的。&lt;/blockquote&gt;&lt;b&gt;	我们也有能力。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;而如果要谈嵌入式系统的安全性，就要谈稳定性。在这种人命关天的系统上，如果用OS，一定是硬实时的（Real-Time），也就是我们说的RTOS。没有硬实时，别的都白说。&lt;/blockquote&gt;&lt;b&gt;是的，Tesla用了RTOS,然后被我们入侵了。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;当然从另一个层面，这也从某种程度上证实了我的猜想——科恩hack掉的是Tesla的那个entertainment system，也就是科恩hack掉的是Tesla的那个entertainment system，也就是ubuntu&lt;/blockquote&gt;&lt;b&gt;	我们也再次重申，远！远！不！止！&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;技术细节我们可以提供，但也得等特斯拉完全修复了不是?&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;－－－－－　更新　&lt;/b&gt;&lt;b&gt;－－－－－&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;对于真正对我们的研究感兴趣的朋友，敬请期待我们在今年11.9号举办的“CSS中国互联网安全领袖峰会”（&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.thecss.cn/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;首页-中国互联网安全领袖峰会&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;）上做的专题报告。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+本来已经准备去忙新的研究项目了，实在看不下去了来回答下这个问题。 <a href="//link.zhihu.com/?target=http%3A//v.qq.com/x/page/y0329yuyczc.html" class=" wrap external" target="_blank" rel="nofollow noreferrer">科恩实验室：对特斯拉的无物理接触远程攻击<i class="icon-external"></i></a> 利益相关，科恩实验室安全研究员，视频里的小胖子（旁边还有个大胖子，哈哈）。 回复 <a data-hash="c67d30567c1ebd6c36ca4352d2c716df" href="//www.zhihu.com/people/c67d30567c1ebd6c36ca4352d2c716df" class="member_mention" data-editable="true" data-title="@高天" data-hovercard="p$b$c67d30567c1ebd6c36ca4352d2c716df">@高天</a> 的疑问： linux基本等价于来呀来呀你来hack我啊，…
+
+<a href="/question/50824266/answer/122986375" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 昨天 14:08" target="_blank" href="/question/50824266/answer/122986375">编辑于 01:06</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-12546396"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>264 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="0">
+<meta name="disableCopyAvatar" content="https://pic2.zhimg.com/236e65ef73a95265b88522fbe4f16b29_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-6" target="_blank" class="meta-item copyright">禁止转载</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook  folding" itemprop="question" itemscope itemtype="http://schema.org/Question"  data-score="3224.40322946" data-type="Answer">
+<link itemprop="url" href="/question/47442187/answer/122816977">
+<meta itemprop="answer-id" content="44621385" />
+<meta itemprop="answer-url-token" content="122816977" />
+<meta itemprop="answerCount" content="778" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="feed-content">
+<h2><a class="question_link" href="/question/47442187" target="_blank" data-id="11191495">
+是什么让我国很多东西看起来很low或者没有美感和质感？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/47442187/answer/122816977">
+<!-- <meta itemprop="answer-id" content="44621385">
+<meta itemprop="answer-url-token" content="122816977"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>673</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">673</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$siminwangDesign"
+target="_blank" href="/people/siminwangDesign"
+>王斯旻</a></span><span title="一位不想改变世界的创业者不是一个好的设计师" class="bio">
+一位不想改变世界的创业者不是一个好的设…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="673" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">673</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="11191495" data-action="/answer/content" data-author-name="王斯旻" data-entry-url="/question/47442187/answer/122816977">
+
+<textarea hidden class="content">一位美女在解放前的画风&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/c3064ac94caefafc415af71baa0992d4_b.jpg&quot; data-rawwidth=&quot;707&quot; data-rawheight=&quot;1000&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;707&quot; data-original=&quot;https://pic1.zhimg.com/c3064ac94caefafc415af71baa0992d4_r.jpg&quot;&gt;&lt;img src=&quot;https://pic4.zhimg.com/1e40b253567cef41e55518747741574f_b.jpg&quot; data-rawwidth=&quot;1000&quot; data-rawheight=&quot;969&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1000&quot; data-original=&quot;https://pic4.zhimg.com/1e40b253567cef41e55518747741574f_r.jpg&quot;&gt;&lt;img src=&quot;https://pic1.zhimg.com/44145b270aa5b887e13ee1cc80bc3704_b.jpg&quot; data-rawwidth=&quot;753&quot; data-rawheight=&quot;1000&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;753&quot; data-original=&quot;https://pic1.zhimg.com/44145b270aa5b887e13ee1cc80bc3704_r.jpg&quot;&gt;&lt;br&gt;同样的她在解放后的画风：&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/e19061e3318c9024a32bb5adaa404c7f_b.jpg&quot; data-rawwidth=&quot;1000&quot; data-rawheight=&quot;848&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1000&quot; data-original=&quot;https://pic4.zhimg.com/e19061e3318c9024a32bb5adaa404c7f_r.jpg&quot;&gt;&lt;img src=&quot;https://pic4.zhimg.com/2db96ad042c0192f6b1e603bd2430073_b.jpg&quot; data-rawwidth=&quot;843&quot; data-rawheight=&quot;1000&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;843&quot; data-original=&quot;https://pic4.zhimg.com/2db96ad042c0192f6b1e603bd2430073_r.jpg&quot;&gt;以上引用自《一本文庙老相册，竟记录了民国无名“女神”的一生》&lt;br&gt;&lt;br&gt;有朋友提到，十几岁的姑娘与四十几岁的妇人自然无法比较，然而只是我一个人觉得他们之间的气质和风格所透露出来的审美情趣有差别么？民国粉？我当然不是，那个年代的复杂与困顿我读过许多。然而也不能掩盖的，是在TG建立初期时，对传统文化的荼毒。&lt;br&gt;&lt;br&gt;审美和品味很大程度来自于历史和传承，而从五四运动中对文化的偏激部分，直到文革带来的断代让中华文化带来的审美传统有了断代，当我们的艺术和审美传统被打上四旧的标签，艺术家在政治正确和苏联舶来品的冲击中艰难生存时。西方正在经历着由现代主义，至后现代主义的艺术演进。&lt;br&gt;&lt;br&gt;文革毁坏文物清单&lt;br&gt;&lt;blockquote&gt;1、炎帝陵主殿被焚，陵墓被挖。焚骨扬灰。&lt;br&gt;&lt;p&gt;2、造字者仓颉的墓园被毁，改造成了“烈士陵园”。&lt;/p&gt;&lt;p&gt;3、山西舜帝陵被毁，墓冢挂上了大喇叭。&lt;/p&gt;&lt;p&gt;4、浙江绍兴会稽山的大禹庙被拆毁，高大的大禹塑像被砸烂，头颅齐颈部截断，放在平板车上游街示众。&lt;/p&gt;&lt;p&gt;5、世界佛教第一至宝，佛祖释尊在世时亲自开光的三圣像之一八岁等身像被捣毁面目。&lt;/p&gt;&lt;p&gt;6、孔子的坟墓被铲平，挖掘，“大成至圣先师文宣王”的大碑被砸得粉碎!庙碑被砸碎了，孔庙中的泥胎塑像被捣毁。孔子的七十六代孙令贻的坟墓被掘开。&lt;/p&gt;&lt;p&gt;7、和县乌江畔项羽的霸王庙、虞姬庙和虞姬墓，香火延续两千年，“横扫”之后，庙、墓皆被砸成一片废墟。“文革”后去霸王庙的凭吊者，见到的只是半埋在土里半露在地上的石狮子。&lt;/p&gt;&lt;p&gt;8、在横扫一切的风暴中，霍去病的霍陵也遭了殃，香烛、签筒被打烂之外，霍去病的塑像也毁于一旦。&lt;/p&gt;&lt;p&gt;9、颐和园佛香阁被砸，大佛被毁。&lt;/p&gt;&lt;p&gt;10、王阳明文庙和王文成公祠两组建筑包括王阳明的塑像，全部在“文革”中被平毁无遗。&lt;/p&gt;&lt;p&gt;......&lt;/p&gt;&lt;/blockquote&gt;以上引自&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.cqvip.com/qk/71957x/200809/90878988504848564857485348.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;文革中被破坏珍贵文物不完全清单&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;，有兴趣的朋友可以读读，咱们一同痛心疾首。&lt;br&gt;&lt;br&gt;还记得一段郭德纲和张文顺和说的相声《八大改行》里说到文革。唱梅花大鼓的老艺术家不让唱了，让扫地，红卫兵给了他个机会宣传革命，老艺术家改了名段《王二姐思夫》唱到：“八月里个秋风，阵阵凉，百万那个雄狮，怎么能够过大江”，一句“怎么能够”，老艺术家寻思，还是回去扫地吧。&lt;br&gt;&lt;br&gt;一段笑言，却道出了当年艺人心酸，其中毁了多少无法物化的艺术，未可尽数。&lt;br&gt;&lt;br&gt;中国人不是没有过审美&lt;br&gt;我们的量产艺术品曾经遍及全球&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/fdd2d538726f32b2871e3ed78db345de_b.jpg&quot; data-rawwidth=&quot;564&quot; data-rawheight=&quot;543&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;564&quot; data-original=&quot;https://pic3.zhimg.com/fdd2d538726f32b2871e3ed78db345de_r.jpg&quot;&gt;&lt;br&gt;宋， 钧窑&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/22c21a3f31155017d0942961af5e685c_b.jpg&quot; data-rawwidth=&quot;1454&quot; data-rawheight=&quot;1799&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1454&quot; data-original=&quot;https://pic1.zhimg.com/22c21a3f31155017d0942961af5e685c_r.jpg&quot;&gt;清，青花瓷&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/006cea62438f4d75ddc2b0ff98c561c5_b.jpg&quot; data-rawwidth=&quot;640&quot; data-rawheight=&quot;360&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;640&quot; data-original=&quot;https://pic2.zhimg.com/006cea62438f4d75ddc2b0ff98c561c5_r.jpg&quot;&gt;南海一号沉船上打捞出来的大量瓷器&lt;br&gt;&lt;br&gt;引来各国仿效：&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/cb717aed02feb57525bb4bc80e2cc60d_b.jpg&quot; data-rawwidth=&quot;1440&quot; data-rawheight=&quot;960&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1440&quot; data-original=&quot;https://pic2.zhimg.com/cb717aed02feb57525bb4bc80e2cc60d_r.jpg&quot;&gt;日本六大名窑之一的濑户烧，明显受宋钧窑影响&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/a8cbb36a04a42d3718d18cb75d2e3deb_b.png&quot; data-rawwidth=&quot;1194&quot; data-rawheight=&quot;955&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1194&quot; data-original=&quot;https://pic4.zhimg.com/a8cbb36a04a42d3718d18cb75d2e3deb_r.png&quot;&gt;18世纪威尼斯的工厂仿造的青花瓷&lt;br&gt;&lt;br&gt;当我们走出了改革开放，西方的艺术和设计随着思潮涌入国内，作为原来文化优势之一的艺术和设计也变得不堪一击，上世纪末本世纪初，主流文化中，已经鲜见中国传统艺术和设计的影子了。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/7b97e329d1395fdf90694c958196862f_b.jpg&quot; data-rawwidth=&quot;1600&quot; data-rawheight=&quot;885&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1600&quot; data-original=&quot;https://pic4.zhimg.com/7b97e329d1395fdf90694c958196862f_r.jpg&quot;&gt;北京的天际线&lt;br&gt;&lt;br&gt;而传统文化在多存留在对物质与非物质遗产的保护上，也被作为商业元素的噱头，被资本粗暴的曲解着。&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/77d17ce3ceb2c3f289afeff05262c83e_b.jpg&quot; data-rawwidth=&quot;795&quot; data-rawheight=&quot;559&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;795&quot; data-original=&quot;https://pic3.zhimg.com/77d17ce3ceb2c3f289afeff05262c83e_r.jpg&quot;&gt;纽约 2015 Met Gala&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/3634372ef6c8909db383e555340fc9f1_b.jpg&quot; data-rawwidth=&quot;1140&quot; data-rawheight=&quot;714&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1140&quot; data-original=&quot;https://pic2.zhimg.com/3634372ef6c8909db383e555340fc9f1_r.jpg&quot;&gt;MAD 山水城市&lt;br&gt;&lt;br&gt;诚然“仓廪实而知礼节”，我们还在“社会主义初级阶段”，然而富裕与贫穷并不和品味与文化完全正相关。当先富裕起来的人们满世界狂抢西方奢侈品：&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/15dfe61b79b5d7a0a1f682d4f200b3db_b.jpg&quot; data-rawwidth=&quot;655&quot; data-rawheight=&quot;465&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;655&quot; data-original=&quot;https://pic4.zhimg.com/15dfe61b79b5d7a0a1f682d4f200b3db_r.jpg&quot;&gt;当我们的电影，音乐，文学，服装都是明显的文化赤字时：&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/7e852fec7dce1cfbd631d2600c4a18d4_b.jpg&quot; data-rawwidth=&quot;1280&quot; data-rawheight=&quot;800&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1280&quot; data-original=&quot;https://pic1.zhimg.com/7e852fec7dce1cfbd631d2600c4a18d4_r.jpg&quot;&gt;当我们的各种布斯们，喊着Stay Foolish, Stay Hungry. 喊着创业创新时，却还在各种抄袭时：&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/6cce6eae6898e5d353039d9ed1c5958a_b.jpg&quot; data-rawwidth=&quot;900&quot; data-rawheight=&quot;684&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;900&quot; data-original=&quot;https://pic3.zhimg.com/6cce6eae6898e5d353039d9ed1c5958a_r.jpg&quot;&gt;很明显的，想要恢复中华美学的文脉，迎来中国创造的时代，想要提升全民审美的确还需时日。&lt;br&gt;&lt;br&gt;比如，什么时候美术老师的课不会被语数外挤占呢？&lt;br&gt;&lt;br&gt;——————————————————————————————————————————&lt;br&gt;感谢大家厚爱，一转眼五百赞了，也感谢大家在下面的留言和讨论，你们的指正也是我完善我的写作的动力。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic1.zhimg.com/c3064ac94caefafc415af71baa0992d4_200x112.jpg" data-rawwidth="707" data-rawheight="1000" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/c3064ac94caefafc415af71baa0992d4_r.jpg">
+一位美女在解放前的画风 同样的她在解放后的画风： 以上引用自《一本文庙老相册，竟记录了民国无名“女神”的一生》 有朋友提到，十几岁的姑娘与四十几岁的妇人自然无法比较，然而只是我一个人觉得他们之间的气质和风格所透露出来的审美情趣有差别么？民国…
+
+<a href="/question/47442187/answer/122816977" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2016-09-20" target="_blank" href="/question/47442187/answer/122816977">编辑于 12:32</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-11191495"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>131 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook  folding" itemprop="question" itemscope itemtype="http://schema.org/Question"  data-score="3224.12821264" data-type="Answer">
+<link itemprop="url" href="/question/24590883/answer/122890265">
+<meta itemprop="answer-id" content="44650916" />
+<meta itemprop="answer-url-token" content="122890265" />
+<meta itemprop="answerCount" content="141" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="feed-content">
+<h2><a class="question_link" href="/question/24590883" target="_blank" data-id="2018466">
+哪些 Python 库让你相见恨晚？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/24590883/answer/122890265">
+<!-- <meta itemprop="answer-id" content="44650916">
+<meta itemprop="answer-url-token" content="122890265"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>582</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">582</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$dongweiming"
+target="_blank" href="/people/dongweiming"
+>董伟明</a></span><span title="《Python Web开发实战》作者" class="bio">
+《Python Web开发实战》作者
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="582" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">582</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="2018466" data-action="/answer/content" data-author-name="董伟明" data-entry-url="/question/24590883/answer/122890265">
+
+<textarea hidden class="content">1. &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/darknessomi/musicbox&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub - darknessomi/musicbox: 网易云音乐命令行版本&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;。 高品质网易云音乐命令行版本，简洁优雅，丝般顺滑，基于Python编写。&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/3d886ac004ac5218107f0c036251d931_b.png&quot; data-rawwidth=&quot;1330&quot; data-rawheight=&quot;996&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1330&quot; data-original=&quot;https://pic2.zhimg.com/3d886ac004ac5218107f0c036251d931_r.png&quot;&gt;2. &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/wting/autojump&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub - wting/autojump: A cd command that learns&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;。 一个文件系统跳转的快捷命令。同样的还有shell编写的 &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/rupa/z&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub - rupa/z: z is the new j, yo&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;，用了就知道有多提高效率。&lt;br&gt;3. &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/docopt/docopt&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub - docopt/docopt: Pythonic command line arguments parser, that will make you smile&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;。上面有人提到了，但是没有人说到精髓，它使用脚本的docstring作为命令行的解析文本，也就是你直接写注释就可以完成argparse复杂的添加选项、指定参数等功能，所见即所得。&lt;br&gt;4. &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/Runscope/httpbin&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub - Runscope/httpbin: HTTP Request &amp;amp; Response Service, written in Python + Flask.&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;。我还曾经写过类似的一个应用，那时候还没有遇到它。读它的源码时候发现它其实好几个的地方实现的很优雅。&lt;br&gt;5. &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/Russell91/pythonpy&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub - Russell91/pythonpy: the swiss army knife of the command line&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;。有时候我会做一些简单地计算和功能的验证，之前得输入ipython然后imort对应的库，再执行（或者用 python -c 'import aaa; print aaa.bbb(1)'的方式）。现在用pythonpy，在命令行一句就好了。&lt;br&gt;6. &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/p-e-w/maybe&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub - p-e-w/maybe: :rabbit2: See what a program does before deciding whether you really want it to happen.&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;。大家都听过那个著名&lt;a href=&quot;//link.zhihu.com/?target=http%3A//coolshell.cn/articles/4875.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;一个空格引发的惨剧&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;吧，我以前也发生过本来是要执行「rm -rf tmp/*」， 结果卡了一下，执行成了「rm -rf tmp/ *」的惨痛经历，如果你有用maybe的习惯，就不会发生悲剧啦。&lt;br&gt;7. &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/nvbn/thefuck&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub - nvbn/thefuck: Magnificent app which corrects your previous console command.&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt; 简直神器，修正你之前的命令行指令。&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/07ee85a3d241dbd9f7a55e37914fadf6_b.png&quot; data-rawwidth=&quot;1376&quot; data-rawheight=&quot;752&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1376&quot; data-original=&quot;https://pic3.zhimg.com/07ee85a3d241dbd9f7a55e37914fadf6_r.png&quot;&gt;8. &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/getsentry/sentry&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub - getsentry/sentry: Sentry is cross-platform crash reporting built with love&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;。错误搜集系统，现在应该没有哪个公司（不只是Python语言）不用它了吧？&lt;br&gt;9. &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/faif/python-patterns&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub - faif/python-patterns: A collection of design patterns/idioms in Python&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;，以前学习设计模式要从很多文章甚至其他语言的版本中去理解，特别苦，直到我发现了这个项目，整个人都不好了。&lt;br&gt;10. &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/jkbrzt/httpie&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;github.com/jkbrzt/httpi&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;。一个命令行HTTP 客户端，cURL 的替代品，它是Python语言中被star数量最多的项目，可见它的受欢迎程度，我几乎每天都在用它， 甚至为了表达对它的喜欢，特地读它的代码，找机会「混」进了它的项目贡献者列表。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/3d886ac004ac5218107f0c036251d931_200x112.png" data-rawwidth="1330" data-rawheight="996" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/3d886ac004ac5218107f0c036251d931_r.png">
+1. <a href="//link.zhihu.com/?target=https%3A//github.com/darknessomi/musicbox" class=" wrap external" target="_blank" rel="nofollow noreferrer">GitHub - darknessomi/musicbox: 网易云音乐命令行版本<i class="icon-external"></i></a>。 高品质网易云音乐命令行版本，简洁优雅，丝般顺滑，基于Python编写。 2. <a href="//link.zhihu.com/?target=https%3A//github.com/wting/autojump" class=" wrap external" target="_blank" rel="nofollow noreferrer">GitHub - wting/autojump: A cd command that learns<i class="icon-external"></i></a>。 一个文件系统跳转的快捷命令。同样的还有shell编写的 <a href="//link.zhihu.com/?target=https%3A//github.com/rupa/z" class=" wrap external" target="_blank" rel="nofollow noreferrer">GitHub - ru…<i class="icon-external"></i></a>
+
+<a href="/question/24590883/answer/122890265" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2016-09-20" target="_blank" href="/question/24590883/answer/122890265">编辑于 昨天 10:42</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-2018466"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>24 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic4.zhimg.com/258463ec3_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=122890265" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<a href="javascript:;" id="zh-load-more" data-method="next" class="zg-btn-white zg-r3px zu-button-more" style="display:none">更多</a>
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar" data-za-module="RightSideBar">
+
+
+<div class="topics-plaza">
+<a target="_blank" href="/topics" class="zg-btn-blue">
+进入话题广场
+</a>
+<a target="_blank" href="/topics" class="text">
+来这里发现更多有趣话题
+</a>
+</div>
+
+<div class="topic-recommend">
+<div class="topic-recommend-head">
+<h2 class="topic-recommend-name">其他人关注的话题</h2>
+<a href="#" class="zg-link-litblue-normal js-pager topics-pager">
+换一换
+</a>
+</div>
+<div class="topic-recommend-list js-list">
+
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19551915" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/e803f3e7a832b035f9bd2dff87033133_xs.jpg" srcset="https://pic4.zhimg.com/e803f3e7a832b035f9bd2dff87033133_l.jpg 2x" alt="汽车" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19551915" target="_blank"><strong>汽车</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="570" data-token="19551915" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19550453" target="_blank"><img class="Avatar Avatar--xs" src="https://pic1.zhimg.com/v2-0a2476d885c668b45691132b07670208_xs.jpg" srcset="https://pic1.zhimg.com/v2-0a2476d885c668b45691132b07670208_l.jpg 2x" alt="音乐" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19550453" target="_blank"><strong>音乐</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="75" data-token="19550453" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19562832" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/f85294643_xs.jpg" srcset="https://pic4.zhimg.com/f85294643_l.jpg 2x" alt="篮球" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19562832" target="_blank"><strong>篮球</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="4196" data-token="19562832" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19550994" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/fb89e0ea3_xs.jpg" srcset="https://pic4.zhimg.com/fb89e0ea3_l.jpg 2x" alt="游戏" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19550994" target="_blank"><strong>游戏</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="253" data-token="19550994" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19550517" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/f07808da5625fef3607f8b75b770349f_xs.jpg" srcset="https://pic4.zhimg.com/f07808da5625fef3607f8b75b770349f_l.jpg 2x" alt="互联网" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19550517" target="_blank"><strong>互联网</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="99" data-token="19550517" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19550937" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/8aa11b633_xs.jpg" srcset="https://pic4.zhimg.com/8aa11b633_l.jpg 2x" alt="健康" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19550937" target="_blank"><strong>健康</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="237" data-token="19550937" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+
+</div>
+<script type="text/html" class="js-hidden-list">
+
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19556664" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/6d7dc1d82127396331a952e93fda484e_xs.jpg" srcset="https://pic3.zhimg.com/6d7dc1d82127396331a952e93fda484e_l.jpg 2x" alt="科技" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19556664" target="_blank"><strong>科技</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="2143" data-token="19556664" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/20048909" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/6e2f43f355c545833e7a825cad067a62_xs.png" srcset="https://pic3.zhimg.com/6e2f43f355c545833e7a825cad067a62_l.png 2x" alt="知乎 Live" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/20048909" target="_blank"><strong>知乎 Live</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="168696" data-token="20048909" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19551077" target="_blank"><img class="Avatar Avatar--xs" src="https://pic2.zhimg.com/bea2e1c35_xs.jpg" srcset="https://pic2.zhimg.com/bea2e1c35_l.jpg 2x" alt="历史" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19551077" target="_blank"><strong>历史</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="285" data-token="19551077" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19555513" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/v2-b79da6d4d51b9c889cf9e2e7c392697f_xs.jpg" srcset="https://pic4.zhimg.com/v2-b79da6d4d51b9c889cf9e2e7c392697f_l.jpg 2x" alt="生活方式" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19555513" target="_blank"><strong>生活方式</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="1761" data-token="19555513" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19575492" target="_blank"><img class="Avatar Avatar--xs" src="https://pic2.zhimg.com/1c4a6ce239afed5a71e041ccdfa59f35_xs.jpg" srcset="https://pic2.zhimg.com/1c4a6ce239afed5a71e041ccdfa59f35_l.jpg 2x" alt="生物学" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19575492" target="_blank"><strong>生物学</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="8437" data-token="19575492" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19564876" target="_blank"><img class="Avatar Avatar--xs" src="https://pic1.zhimg.com/a240a363b7d7e0681502017c57b0ba20_xs.jpg" srcset="https://pic1.zhimg.com/a240a363b7d7e0681502017c57b0ba20_l.jpg 2x" alt="财务" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19564876" target="_blank"><strong>财务</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="4887" data-token="19564876" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19604128" target="_blank"><img class="Avatar Avatar--xs" src="https://pic1.zhimg.com/a78b253d8f27af0933c63bae17bb5cb0_xs.jpg" srcset="https://pic1.zhimg.com/a78b253d8f27af0933c63bae17bb5cb0_l.jpg 2x" alt="医学" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19604128" target="_blank"><strong>医学</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="18012" data-token="19604128" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19591985" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/65655995f2b6118b1d2c366422c8308e_xs.jpg" srcset="https://pic3.zhimg.com/65655995f2b6118b1d2c366422c8308e_l.jpg 2x" alt="动漫" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19591985" target="_blank"><strong>动漫</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="13908" data-token="19591985" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19551683" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/v2-89c781f1ab7aa25e9feedbdcb216d107_xs.jpg" srcset="https://pic4.zhimg.com/v2-89c781f1ab7aa25e9feedbdcb216d107_l.jpg 2x" alt="语言" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19551683" target="_blank"><strong>语言</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="491" data-token="19551683" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19577124" target="_blank"><img class="Avatar Avatar--xs" src="https://pic1.zhimg.com/335a695b0_xs.jpg" srcset="https://pic1.zhimg.com/335a695b0_l.jpg 2x" alt="戏剧" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19577124" target="_blank"><strong>戏剧</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="8973" data-token="19577124" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19550564" target="_blank"><img class="Avatar Avatar--xs" src="https://pic1.zhimg.com/3f30afdfc_xs.jpg" srcset="https://pic1.zhimg.com/3f30afdfc_l.jpg 2x" alt="阅读" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19550564" target="_blank"><strong>阅读</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="113" data-token="19550564" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19551432" target="_blank"><img class="Avatar Avatar--xs" src="https://pic2.zhimg.com/7a579133e50fc9125ff7cda05249fcf1_xs.jpg" srcset="https://pic2.zhimg.com/7a579133e50fc9125ff7cda05249fcf1_l.jpg 2x" alt="心理学" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19551432" target="_blank"><strong>心理学</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="404" data-token="19551432" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19967967" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/1190104157a2c594a477f90f66172b6a_xs.jpg" srcset="https://pic3.zhimg.com/1190104157a2c594a477f90f66172b6a_l.jpg 2x" alt="区域经济学" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19967967" target="_blank"><strong>区域经济学</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="141334" data-token="19967967" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19552266" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/561b3578f_xs.jpg" srcset="https://pic4.zhimg.com/561b3578f_l.jpg 2x" alt="文化" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19552266" target="_blank"><strong>文化</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="686" data-token="19552266" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19570709" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/cafae465b8ea283498c69ab9757f86ba_xs.jpg" srcset="https://pic3.zhimg.com/cafae465b8ea283498c69ab9757f86ba_l.jpg 2x" alt="对冲基金" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19570709" target="_blank"><strong>对冲基金</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="6839" data-token="19570709" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19550429" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/7d8c15df29ce6900c80f9cf630992687_xs.jpg" srcset="https://pic4.zhimg.com/7d8c15df29ce6900c80f9cf630992687_l.jpg 2x" alt="电影" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19550429" target="_blank"><strong>电影</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="68" data-token="19550429" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19561988" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/a3b82d40a0fcf4a95422d8bf33c95b36_xs.png" srcset="https://pic3.zhimg.com/a3b82d40a0fcf4a95422d8bf33c95b36_l.png 2x" alt="审计" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19561988" target="_blank"><strong>审计</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="3930" data-token="19561988" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19551137" target="_blank"><img class="Avatar Avatar--xs" src="https://pic1.zhimg.com/975baaf73fd76f48ce6f05e19b176878_xs.jpg" srcset="https://pic1.zhimg.com/975baaf73fd76f48ce6f05e19b176878_l.jpg 2x" alt="美食" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19551137" target="_blank"><strong>美食</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="304" data-token="19551137" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19560170" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/30ffc337a555a56877aebdab9c5042f7_xs.jpg" srcset="https://pic4.zhimg.com/30ffc337a555a56877aebdab9c5042f7_l.jpg 2x" alt="经济学" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19560170" target="_blank"><strong>经济学</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="3324" data-token="19560170" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19559052" target="_blank"><img class="Avatar Avatar--xs" src="https://pic1.zhimg.com/1f9c99e8aa4b0ab76d4885ffd0eb10c0_xs.jpg" srcset="https://pic1.zhimg.com/1f9c99e8aa4b0ab76d4885ffd0eb10c0_l.jpg 2x" alt="足球" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19559052" target="_blank"><strong>足球</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="2955" data-token="19559052" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19551404" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/cdadbe013_xs.jpg" srcset="https://pic4.zhimg.com/cdadbe013_l.jpg 2x" alt="投资" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19551404" target="_blank"><strong>投资</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="395" data-token="19551404" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19673988" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/022feb1bff02e636ed84fb28166f5b67_xs.png" srcset="https://pic4.zhimg.com/022feb1bff02e636ed84fb28166f5b67_l.png 2x" alt="发展经济学" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19673988" target="_blank"><strong>发展经济学</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="41344" data-token="19673988" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19550434" target="_blank"><img class="Avatar Avatar--xs" src="https://pic2.zhimg.com/eab85c3ad_xs.jpg" srcset="https://pic2.zhimg.com/eab85c3ad_l.jpg 2x" alt="艺术" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19550434" target="_blank"><strong>艺术</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="69" data-token="19550434" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19564606" target="_blank"><img class="Avatar Avatar--xs" src="https://pic2.zhimg.com/0970be9f5_xs.jpg" srcset="https://pic2.zhimg.com/0970be9f5_l.jpg 2x" alt="户外运动" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19564606" target="_blank"><strong>户外运动</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="4797" data-token="19564606" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19552706" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/874291333_xs.jpg" srcset="https://pic4.zhimg.com/874291333_l.jpg 2x" alt="运动" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19552706" target="_blank"><strong>运动</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="833" data-token="19552706" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19553298" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/2bd2e49d3f849155376393085edc1d9e_xs.jpg" srcset="https://pic3.zhimg.com/2bd2e49d3f849155376393085edc1d9e_l.jpg 2x" alt="自然科学" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19553298" target="_blank"><strong>自然科学</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="1027" data-token="19553298" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19559424" target="_blank"><img class="Avatar Avatar--xs" src="https://pic2.zhimg.com/afa4afb3d_xs.jpg" srcset="https://pic2.zhimg.com/afa4afb3d_l.jpg 2x" alt="数据分析" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19559424" target="_blank"><strong>数据分析</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="3074" data-token="19559424" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/20031686" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/1720d08cb8e682f0d5219efa4453c4a2_xs.png" srcset="https://pic3.zhimg.com/1720d08cb8e682f0d5219efa4453c4a2_l.png 2x" alt="2015 年盘点" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/20031686" target="_blank"><strong>2015 年盘点</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="162745" data-token="20031686" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19562906" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/f5b4524ab48273ed913a113d84ba009e_xs.png" srcset="https://pic3.zhimg.com/f5b4524ab48273ed913a113d84ba009e_l.png 2x" alt="化学" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19562906" target="_blank"><strong>化学</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="4217" data-token="19562906" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19551036" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/0fa82692a_xs.jpg" srcset="https://pic3.zhimg.com/0fa82692a_l.jpg 2x" alt="字体设计" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19551036" target="_blank"><strong>字体设计</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="271" data-token="19551036" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19551388" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/d0786c77632f8287d03205491d731792_xs.png" srcset="https://pic3.zhimg.com/d0786c77632f8287d03205491d731792_l.png 2x" alt="摄影" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19551388" target="_blank"><strong>摄影</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="388" data-token="19551388" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19553176" target="_blank"><img class="Avatar Avatar--xs" src="https://pic2.zhimg.com/f672948364a6592511342b965bbfad91_xs.jpg" srcset="https://pic2.zhimg.com/f672948364a6592511342b965bbfad91_l.jpg 2x" alt="教育" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19553176" target="_blank"><strong>教育</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="988" data-token="19553176" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19555457" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/34799a68980175b37acfd487a46bce43_xs.jpg" srcset="https://pic4.zhimg.com/34799a68980175b37acfd487a46bce43_l.jpg 2x" alt="商业" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19555457" target="_blank"><strong>商业</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="1740" data-token="19555457" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19609455" target="_blank"><img class="Avatar Avatar--xs" src="https://pic2.zhimg.com/ca0657b5e0ef154ee25c3e357a6c607d_xs.jpg" srcset="https://pic2.zhimg.com/ca0657b5e0ef154ee25c3e357a6c607d_l.jpg 2x" alt="金融" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19609455" target="_blank"><strong>金融</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="19800" data-token="19609455" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19567962" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/43efd061747369b1f03cc2c34adca45e_xs.jpg" srcset="https://pic3.zhimg.com/43efd061747369b1f03cc2c34adca45e_l.jpg 2x" alt="博弈论" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19567962" target="_blank"><strong>博弈论</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="5930" data-token="19567962" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19551469" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/d8426d43e_xs.jpg" srcset="https://pic3.zhimg.com/d8426d43e_l.jpg 2x" alt="旅游" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19551469" target="_blank"><strong>旅游</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="415" data-token="19551469" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19551556" target="_blank"><img class="Avatar Avatar--xs" src="https://pic2.zhimg.com/2178ec835c7198af83d6b541bb2b9849_xs.jpg" srcset="https://pic2.zhimg.com/2178ec835c7198af83d6b541bb2b9849_l.jpg 2x" alt="旅行" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19551556" target="_blank"><strong>旅行</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="444" data-token="19551556" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19551052" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/465de28443de54e4f89b39f5486525e7_xs.jpg" srcset="https://pic4.zhimg.com/465de28443de54e4f89b39f5486525e7_l.jpg 2x" alt="时尚" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19551052" target="_blank"><strong>时尚</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="276" data-token="19551052" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19556231" target="_blank"><img class="Avatar Avatar--xs" src="https://pic1.zhimg.com/e77cabe14_xs.jpg" srcset="https://pic1.zhimg.com/e77cabe14_l.jpg 2x" alt="交互设计" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19556231" target="_blank"><strong>交互设计</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="1990" data-token="19556231" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19550874" target="_blank"><img class="Avatar Avatar--xs" src="https://pic2.zhimg.com/f126e096216e4554289b0996539b79b5_xs.jpg" srcset="https://pic2.zhimg.com/f126e096216e4554289b0996539b79b5_l.jpg 2x" alt="法律" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19550874" target="_blank"><strong>法律</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="215" data-token="19550874" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19556671" target="_blank"><img class="Avatar Avatar--xs" src="https://pic1.zhimg.com/b1ff5998c_xs.jpg" srcset="https://pic1.zhimg.com/b1ff5998c_l.jpg 2x" alt="儿童教育" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19556671" target="_blank"><strong>儿童教育</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="2146" data-token="19556671" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19551557" target="_blank"><img class="Avatar Avatar--xs" src="https://pic1.zhimg.com/e8b840284350f4a2d01ea6869926bfcc_xs.jpg" srcset="https://pic1.zhimg.com/e8b840284350f4a2d01ea6869926bfcc_l.jpg 2x" alt="设计" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19551557" target="_blank"><strong>设计</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="445" data-token="19551557" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19556950" target="_blank"><img class="Avatar Avatar--xs" src="https://pic3.zhimg.com/7a7dfc72e_xs.jpg" srcset="https://pic3.zhimg.com/7a7dfc72e_l.jpg 2x" alt="物理学" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19556950" target="_blank"><strong>物理学</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="2253" data-token="19556950" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19562435" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/d6b1c3d193581b4110a3ea289c7f5623_xs.png" srcset="https://pic4.zhimg.com/d6b1c3d193581b4110a3ea289c7f5623_l.png 2x" alt="食品安全" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19562435" target="_blank"><strong>食品安全</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="4075" data-token="19562435" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+<div class="topic-item zg-clear zm-profile-section-item zm-item">
+<div class="topic-avatar">
+<a href="/topic/19550560" target="_blank"><img class="Avatar Avatar--xs" src="https://pic4.zhimg.com/b75f995419ff775ff71fca685d7825af_xs.jpg" srcset="https://pic4.zhimg.com/b75f995419ff775ff71fca685d7825af_l.jpg 2x" alt="创业" /></a>
+</div>
+<div class="topic-item-content">
+<h3 class="topic-item-title">
+<a href="/topic/19550560" target="_blank"><strong>创业</strong></a>
+</h3>
+<a data-follow="t:link:simple" data-id="112" data-token="19550560" href="javascript:;" class="meta-item zg-follow"><i class="z-icon-follow"></i>关注</a>
+</div>
+</div>
+
+
+</script>
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/question/19581624" target="_blank">知乎指南</a></li>
+<li><a href="javascript:;" id="js-feedback-button">建议反馈</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2016 知乎</span>
+
+</div>
+</div>
+
+<script type="text/json" class="json-inline" data-name="guiders2">{"exclusive-popover":{"roundtable":{"content":"\u4e0e\u9886\u57df\u8d44\u6df1\u5609\u5bbe\u540c\u5e2d\uff0c\u53c2\u4e0e\u4e13\u4e1a\u7cbe\u5f69\u7684\u4e3b\u9898\u8ba8\u8bba","dismissText":"\u77e5\u9053\u4e86","title":"\u77e5\u4e4e\u5706\u684c"}},"section":{},"editor":[]}</script>
+<script type="text/json" class="json-inline" data-name="current_user">["lvshaoboftd","lvshaoboftd","https:\/\/pic1.zhimg.com\/da8e974dc_s.jpg","ffce9e678e61431a207b468e8245762e","\u7a0b\u5e8f\u733f",0,0,true,"lvshaoboftd@163.com","http:\/\/mail.163.com",0,true,false,false,"761947899226492928",false,false,false,true,null]</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,null]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":1474442535000,"now":1474536145000,"abtest_mask":"---------0--------------------","user_attr":[1,0,0,"-","-"],"user_hash":"ffce9e678e61431a207b468e8245762e"}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.7e4d2b04.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.49601acb.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.3ddc9a9e.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.7402881c.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.3768774e.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.f3d1061f.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.e1a4330d.js","OrgAnalytics":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgAnalytics.6d7ab6bd.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.e0ec3f50.js"}</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.e4c50091.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.78a6df67.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.3ded0657.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-main.6dcfe443.js"></script>
+<meta name="entry" content="ZH.entryTopicFeed" data-module-id="page-main">
+
+<script type="text/zscript" znonce="a6bfda3b5cb1451c886e72b08836814e"></script>
+
+<input type="hidden" name="_xsrf" value="3c71df6732ca540dd043b8ed24c3470f"/>
+</body>
+</html>
