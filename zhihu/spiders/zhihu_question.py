@@ -6,8 +6,28 @@ from zhihu.items import ZhihuItem
 from bs4 import BeautifulSoup
 from script import txt_dict
 from script import header_dict
-from scrapy.selector import Selector
 import time
+
+import logging
+
+logger = logging.getLogger('mylogger')
+logger.setLevel(logging.DEBUG)
+
+fh = logging.FileHandler('test.log')
+fh.setLevel(logging.DEBUG)
+
+ch = logging.StreamHandler()
+ch.setLevel(logging.DEBUG)
+
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+fh.setFormatter(formatter)
+ch.setFormatter(formatter)
+
+logger.addHandler(fh)
+logger.addHandler(ch)
+
+logger.info('foorbar')
+
 
 class ZhihuQuesionSpider(scrapy.Spider):
     name = "zhihu.question"
@@ -17,15 +37,15 @@ class ZhihuQuesionSpider(scrapy.Spider):
         'http://www.zhihu.com',
     )
     """
-    cookies = txt_dict.txt_dict('script/Cookie')
+    # cookies = txt_dict.txt_dict('script/Cookie')
     headers = header_dict.header_dict('script/Header')
 
     def start_requests(self):
         print('****************start_requrest***************')
-        yield scrapy.FormRequest(url='https://www.zhihu.com/',
-                                 headers = self.headers,
-                                 meta = {'cookiejar': 1},
-                                 callback=self.request_captcha)
+        yield Request(url='https://www.zhihu.com/',
+                             headers = self.headers,
+                             meta = {'cookiejar': 1},
+                             callback=self.request_captcha)
     
     def request_captcha(self, response):
         soup = BeautifulSoup(response.body, 'lxml')
@@ -36,13 +56,11 @@ class ZhihuQuesionSpider(scrapy.Spider):
         print(xsrf)
         print(time.time()*1000)
         captcha_url = "http://www.zhihu.com/captcha.gif?r=" + str(time.time()*1000) + '&type=login'
-        yield scrapy.Request(
-            url=captcha_url,
-            headers=self.headers,
-            meta={"cookiejar": response.meta["cookiejar"],
-                  "_xsrf": xsrf},
-            callback=self.post_login
-        )
+        yield Request(url=captcha_url,
+                             headers=self.headers,
+                             meta={"cookiejar": response.meta["cookiejar"],
+                                   "_xsrf": xsrf},
+                             callback=self.post_login)
     
     
     def post_login(self, response):
@@ -51,26 +69,22 @@ class ZhihuQuesionSpider(scrapy.Spider):
             fp.write(response.body)
         print("请输入验证码: ")
         captcha = input()
-        yield scrapy.FormRequest(
-            url='https://www.zhihu.com/login/email',
-            headers=self.headers,
-            formdata={"email": 'lvshaoboftd@163.com',
-                      "password": 'LVshaobo',
-                      "_xsrf": response.meta["_xsrf"],
-                      "remember_me": "true",
-                      "captcha": captcha
-            },
-            meta={
-                "cookiejar": response.meta["cookiejar"],},
-            callback=self.request_question
-        )
+        yield FormRequest(url='https://www.zhihu.com/login/email',
+                                 headers=self.headers,
+                                 formdata={"email": 'lvshaoboftd@163.com',
+                                           "password": 'LVshaobo',
+                                           "_xsrf": response.meta["_xsrf"],
+                                           "remember_me": "true",
+                                           "captcha": captcha},
+                                 meta={"cookiejar": response.meta["cookiejar"],},
+                                 callback=self.request_question)
 
     
     def request_question(self, response):
         print('-----------------request_question----------------')
-        yield Request(url='https://www.zhihu.com/topic/', 
-                      meta={'cookiejar': response.meta['cookiejar']}, 
-                      callback=self.parse, 
+        yield Request(url='https://www.zhihu.com/',
+                      meta={'cookiejar': response.meta['cookiejar']},
+                      callback=self.parse,
                       dont_filter=True)
     
     
