@@ -1,0 +1,13 @@
+2016-09-28 20:39:40,301 - script.header_dict - INFO - start
+2016-09-28 20:39:40,301 - script.header_dict - INFO - end
+2016-09-28 20:39:44,535 - zhihu.spiders.zhihu_question - INFO - requrest_login
+2016-09-28 20:39:44,536 - zhihu.middlewares.javascript - INFO - start_browser
+2016-09-28 20:41:21,416 - zhihu.middlewares.javascript - INFO - start_login
+2016-09-28 20:41:34,014 - zhihu.middlewares.javascript - INFO - end_login
+2016-09-28 20:41:34,014 - zhihu.middlewares.javascript - INFO - end_browser
+2016-09-28 20:43:06,800 - zhihu.spiders.zhihu_question - INFO - request_question
+2016-09-28 20:43:06,803 - zhihu.middlewares.javascript - INFO - start_browser
+2016-09-28 20:44:40,631 - zhihu.middlewares.javascript - INFO - start_question
+2016-09-28 20:45:02,686 - zhihu.middlewares.javascript - INFO - end_question
+2016-09-28 20:45:02,687 - zhihu.middlewares.javascript - INFO - end_browser
+2016-09-28 20:45:03,600 - zhihu.spiders.zhihu_question - INFO - parse

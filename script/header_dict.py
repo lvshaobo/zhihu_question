@@ -1,13 +1,18 @@
 """
 Convert str to dictionary
 """
+
+from log import Logger
+
+
 def header_dict(filename):
     with open(filename, 'r') as txt:
-        print('-------------------------------start------------------------------')
+        log = Logger(__name__)
+        log.info('start')
         data_list = txt.read().split('\n')[:-2]
         data_dict = dict()
         list(map(lambda x: data_dict.setdefault(x.split(':', 1)[0], x.split(':')[1].strip()), data_list))
-        print('================================end===============================')
+        log.info('end')
         return(data_dict)
 
 """

@@ -8,25 +8,8 @@ from script import txt_dict
 from script import header_dict
 import time
 from selenium import webdriver
-import logging
 
-logger = logging.getLogger('mylogger')
-logger.setLevel(logging.DEBUG)
-
-fh = logging.FileHandler('test.log')
-fh.setLevel(logging.DEBUG)
-
-ch = logging.StreamHandler()
-ch.setLevel(logging.DEBUG)
-
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-fh.setFormatter(formatter)
-ch.setFormatter(formatter)
-
-logger.addHandler(fh)
-logger.addHandler(ch)
-
-# logger.info('foorbar')
+from log import Logger
 
 
 class ZhihuQuesionSpider(scrapy.Spider):
@@ -37,12 +20,13 @@ class ZhihuQuesionSpider(scrapy.Spider):
         'http://www.zhihu.com',
     )
     """
+    __log = Logger(__name__)
     # cookies = txt_dict.txt_dict('script/Cookie')
     headers = header_dict.header_dict('script/Header')
     driver = webdriver.Firefox()
 
     def start_requests(self):
-        print('****************start_requrest***************')
+        self.__log.info('requrest_login')
         yield Request(url='https://www.zhihu.com/',
                              headers = self.headers,
                              meta = {'cookiejar': 1},
@@ -82,7 +66,7 @@ class ZhihuQuesionSpider(scrapy.Spider):
 
     """
     def request_question(self, response):
-        print('-----------------request_question----------------')
+        self.__log.info('request_question')
         yield Request(url='https://www.zhihu.com/topic',
                       meta={'cookiejar': response.meta['cookiejar']},
                       callback=self.parse,
@@ -90,7 +74,7 @@ class ZhihuQuesionSpider(scrapy.Spider):
     
     
     def parse(self, response):
-        print('----------------------parse---------------------')
+        self.__log.info('parse')
         html_doc = response.body
         soup = BeautifulSoup(html_doc, 'lxml')
         filename = 'output/zhihu.question'
