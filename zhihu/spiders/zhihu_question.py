@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from script import txt_dict
 from script import header_dict
 import time
-
+from selenium import webdriver
 import logging
 
 logger = logging.getLogger('mylogger')
@@ -26,7 +26,7 @@ ch.setFormatter(formatter)
 logger.addHandler(fh)
 logger.addHandler(ch)
 
-logger.info('foorbar')
+# logger.info('foorbar')
 
 
 class ZhihuQuesionSpider(scrapy.Spider):
@@ -39,14 +39,15 @@ class ZhihuQuesionSpider(scrapy.Spider):
     """
     # cookies = txt_dict.txt_dict('script/Cookie')
     headers = header_dict.header_dict('script/Header')
+    driver = webdriver.Firefox()
 
     def start_requests(self):
         print('****************start_requrest***************')
         yield Request(url='https://www.zhihu.com/',
                              headers = self.headers,
                              meta = {'cookiejar': 1},
-                             callback=self.request_captcha)
-    
+                             callback=self.request_question)
+    """
     def request_captcha(self, response):
         soup = BeautifulSoup(response.body, 'lxml')
         print('----------------request_captcha---------------')
@@ -79,10 +80,10 @@ class ZhihuQuesionSpider(scrapy.Spider):
                                  meta={"cookiejar": response.meta["cookiejar"],},
                                  callback=self.request_question)
 
-    
+    """
     def request_question(self, response):
         print('-----------------request_question----------------')
-        yield Request(url='https://www.zhihu.com/',
+        yield Request(url='https://www.zhihu.com/topic',
                       meta={'cookiejar': response.meta['cookiejar']},
                       callback=self.parse,
                       dont_filter=True)
